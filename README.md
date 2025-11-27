@@ -89,10 +89,11 @@ In summary, this project uses an **ESP32** together with a **PT1000 temperature 
 - **Control the pumps** responsible for both **sanitary hot water** and **radiator heating**, according to configurable temperature thresholds and safety rules.
 
 This architecture makes it possible to build a **flexible, connected and energy‑efficient** system for managing domestic hot water and central heating.
-```
 
 
-## HW 
+### HW 
 
-LILYGO® TTGO T-Relay4 ESP32 
-MAX31865 
+|LILYGO® TTGO T-Relay4 ESP32| 
+|--------|
+|MAX31865| 
+
