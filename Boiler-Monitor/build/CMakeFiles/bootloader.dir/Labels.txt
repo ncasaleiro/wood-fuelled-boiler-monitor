@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/CMakeFiles/bootloader
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/CMakeFiles/bootloader.rule
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/CMakeFiles/bootloader-complete.rule
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

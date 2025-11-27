@@ -1,0 +1,2 @@
+source /home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader/gdbinit/symbols
+source /home/nuno-casaleiro/Documents/NunoPersonal/Caldeira/Boiler-Monitor/build/bootloader/gdbinit/connect
