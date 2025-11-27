@@ -1,0 +1,60 @@
+{
+    "name": "Boiler Monitor",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "mounts": [
+      "source=extensionCache,target=/root/.vscode-server/extensions,type=volume",
+      "source=/dev,target=/dev,type=bind,consistency=cached"
+    ],
+    "runArgs": [
+      "--privileged",
+      "--name",
+      "Boiler Monitor"
+    ],
+    "postCreateCommand": "cd ${containerWorkspaceFolder} && bash ./.devcontainer/post-build.sh",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "bash",
+          "idf.espIdfPath": "/opt/esp/idf",
+          "idf.customExtraPaths": "",
+          "idf.pythonBinPath": "/opt/esp/python_env/idf5.5_py3.12_env/bin/python",
+          "idf.toolsPath": "/opt/esp",
+          "idf.gitPath": "/usr/bin/git"
+        },
+        "extensions": [
+          // espressif
+          "espressif.esp-idf-extension",
+          // cmake colorization and completion list
+          "twxs.cmake",
+          // unwanted-extensions: It suggest to disable some unwanted extensions that will generate conflicts with microchip
+          "Soulcode.vscode-unwanted-extensions",
+          // cmake-format: hilight and format for cmake language
+          "cheshirekow.cmake-format",
+          // vscode-clangd: auto-complete and source code browsing. (this is better than "ms-vscode.cpptools")
+          "llvm-vs-code-extensions.vscode-clangd",
+          // cpp-check-lint: integrates cppcheck and cpplint (google style)
+          "QiuMingGe.cpp-check-lint",
+          // Optional but highly recommended extensions
+          // (optional) gitblame: shows who made changes in the line
+          "waderyan.gitblame",
+          // (optional) Doxygen Documentation Generator
+          "cschlosser.doxdocgen",
+          // (optional) Allow add custom task buttons on bottom bar
+          "actboy168.tasks",
+          // (optional) View a Git Graph of your repository, and easily perform Git actions from the graph
+          "mhutchie.git-graph",
+          // (optional) Preview Markdown (ctrl+shift+v)
+          "searKing.preview-vscode",
+          // (optional) Search for TODO tags
+          "Gruntfuggly.todo-tree",
+          // (optional) Beautify/Uglify/Escape/Unescape JSON
+          "andyyaldoo.vscode-json",
+          // (optional) plantuml visualization
+          "jebbs.plantuml"
+        ]
+      }
+    }
+  }
+  

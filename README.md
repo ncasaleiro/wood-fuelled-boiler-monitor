@@ -90,3 +90,9 @@ In summary, this project uses an **ESP32** together with a **PT1000 temperature 
 
 This architecture makes it possible to build a **flexible, connected and energy‑efficient** system for managing domestic hot water and central heating.
 ```
+
+
+## HW 
+
+LILYGO® TTGO T-Relay4 ESP32 
+MAX31865 
